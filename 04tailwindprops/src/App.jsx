@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-    <h1 className='text-3xl bg-green-600 rounded-md p-3'>Hi Shyam</h1>
-    <Card username ="shyam" imgs="https://picsum.photos/536/354"/>
-    <Card post="Enginner"/>
-    <Card username ="sujin"/>
+      <h1 className='text-3xl bg-green-600 rounded-md p-3'>Hi Shyam</h1>
+      <Card username="shyam" imgs="https://picsum.photos/536/354" /> {/* fro declaring attributes of card */}
+      <Card post="Enginner" />
+      <Card username="sujin" />
     </>
   )
 }

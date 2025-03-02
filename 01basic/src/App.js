@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <h1>Hi React</h1>
-    < Other/>
+    < Other/>  {/*To use other function insie the main function */}
     </>
   );
 }

@@ -7,9 +7,9 @@ import React from 'react'
 const reactElement ={
     tags: 'a',
     props: {
-        href:'www.google.com',
+        href:'www.google.com',  //to create a HTML by using Js
         target:  '_blank'
-    },
+    },                          
     child:' Click me'
 }
 function Shyam(){
@@ -22,7 +22,7 @@ const test = (
 )
 const areactElement = React.createElement(
     'a',
-    {href:'www.//google.com',target:'_blank'},
+    {href:'www.//google.com',target:'_blank'},  //Modified ad also simplest way of creating HTML
     'click ME'
 )
 
